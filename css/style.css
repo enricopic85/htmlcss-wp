@@ -40,6 +40,14 @@ main{
     position: absolute;
     bottom: 40px;
     left: 80px;
+    font-family: 'Roboto', sans-serif;
+}
+.leader{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.leader p{
+    color: grey;
 }
 
 .row::after{
