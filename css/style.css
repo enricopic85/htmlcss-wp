@@ -12,10 +12,16 @@
     height: 200px;
     background-position: center;
     border-radius: 5px;
-    border: 1px solid black;
 }
+
 .fl{
     float: left;
+}
+
+.oscuramento{
+    background-color: rgba(75, 35, 35, 0.5);
+    width: 100%;
+    height: 100%;
 }
 /* fine classi utility */
 
@@ -50,10 +56,10 @@ main{
     margin-bottom: 20px;
     background-position: center;
     position: relative;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 .content-main{
-    color:  rgb(30 30 30 / 20%);
+    color:  white;
     position: absolute;
     bottom: 40px;
     left: 50px;
@@ -101,9 +107,4 @@ footer{
 footer span{
     color: red;
 }
-.oscuramento{
-    background-color: rgba(30, 30, 30, 0.5);
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
+
